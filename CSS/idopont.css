@@ -1,0 +1,185 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+
+.kipozicional a {position: absolute; left: -9999px;}
+.kipozicional a:focus {position: static; background: white;}
+
+#gyengenlato-kikapcs {display: none;}
+a#gyengenlato-mod  img {
+    width: 10%;
+    margin: auto;
+}
+
+a.dropdown-item:active {background-color: #00593f;}
+
+.header {
+    background-image: url("../Media/wallpaperflare.com_wallpaper.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.description {
+	left: 50%;
+	position: absolute;
+	top: 45%;
+	transform: translate(-50%, -55%);
+	text-align: center;
+}
+.description h1 {
+	color: #ccc;
+    font-size: 4em;
+}
+.description p {
+	color: #ccc;
+	font-size: 1.4rem;
+	line-height: 1.5;
+}
+
+main {
+    background-color:#00593f;
+}
+main .form-control,
+input {
+	border-radius: 10px;
+}
+main .btn {
+    background-color: #333;
+    color: #ccc;
+    margin-top: 20px;
+}
+main .btn:hover {
+    background-color: #333;
+    color: #00593f;
+}
+
+h1 {
+    color: #ccc;
+}
+
+p {
+    color: #ccc;
+}
+
+.row {
+    color: #ccc;
+	margin: auto;
+	padding: 1em;
+	position: relative;
+}
+
+.table-responsive {
+    padding-top: 1em;
+}
+
+.features {
+	margin: auto;
+	padding: 1em;
+	position: relative;
+}
+.feature-title {
+	color: #ccc;
+	font-size: 1.3rem;
+	font-weight: 700;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+.feature-subtitle {
+	color: #ccc;
+	font-size: 1rem;
+	font-weight: 700;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+.features p {
+    color: #ccc;
+}
+.features img {
+	-webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	margin-bottom: 16px;
+}
+.col-lg-4 a:link {
+    color: #ccc;
+}
+.col ul {
+    color:#ccc;
+}
+.col ul .bi-hand-thumbs-up {
+    color:green;
+}
+.col ul .bi-hand-thumbs-down {
+    color:red;
+}
+.col ul li {
+    list-style-type: none;
+}
+p.lead {
+    text-align: justify;
+}
+
+
+.page-footer {
+    background-color: #222;
+    color: #ccc;
+    padding: 60px 0 30px;
+}
+.footer-copyright {
+    color: #666;
+    padding: 40px 0;
+}
+div#kapcsolat h1 {
+    font-size: 1.5em;
+}
+div#kapcsolat a.email:link {
+    color: #ccc;
+}
+div#kapcsolat a.email:hover {
+    color: #666;
+}
+div#kapcsolat a.email:visited {
+    color: gray;
+}
+
+
+
+@media (max-width: 575.98px) {
+    .description {
+        left: 0;
+        padding: 0 15px;
+        position: absolute;
+        top: 10%;
+        transform: none;
+        text-align: center;
+    }
+ 
+    .description h1 {
+        font-size: 2em;
+    }
+ 
+    .description p {
+        font-size: 1.2rem;
+    }
+ 
+    .features {
+        margin: 0;
+    }
+}
+
+@media print {
+    .print-hide {display: none;}
+    img {width: 50%;}
+    @page {
+        margin: 2cm;
+    }
+    a:after {content: " (" attr(href) ")";}
+}
