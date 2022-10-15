@@ -1,0 +1,23 @@
+#gyengenlato-kikapcs {display: inline;}
+#gyengenlato-mod {display: none;}
+
+body {
+    background-color: black;
+    font-size: 2em;
+}
+
+nav, div {
+    background-color: black;
+}
+
+ul.dropdown-menu {
+    background-color: black;
+}
+
+a, p, h1, h2, h3, ul, body {
+    color: yellow !important;
+}
+
+li.nav-item {
+    margin-left: 10px;
+}
