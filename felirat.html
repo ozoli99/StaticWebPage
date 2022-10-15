@@ -1,0 +1,144 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="hu" xml:lang="hu">
+<head>
+    <!--Required meta tags-->
+    <meta content="text/html; charset=utf-8" />
+    <meta id="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    
+    <link rel="stylesheet" href="CSS/kopoly.css" />
+    <link rel="alternate stylesheet" type="text/css" href="CSS/gyengenlato.css" title="gyengenlato" />
+
+    <title>Köpöly - Járvás Masszázs</title>
+</head>
+<body>
+    <nav class="kipozicional">
+        <a href="#tartalom">Ugrás a tartalomra</a>
+    </nav>
+    <nav class="navbar navbar-expand-lg navbar-dark print-hide">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="Media/rajz.svg" alt="" width="40" height="34" class="d-inline-block align-text-top" />
+                Járvás Masszázs
+            </a>
+            <button class="navbar-toggler" type="button">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#kapcsolat">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-lines-fill" viewBox="0 0 16 16">
+                                <path d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-5 6s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zM11 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5zm.5 2.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1h-4zm2 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2zm0 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2z"/>
+                            </svg>
+                            Kapcsolat
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#szolgaltatasaim" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-signpost-2" viewBox="0 0 16 16">
+                                <path d="M7 1.414V2H2a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h5v1H2.5a1 1 0 0 0-.8.4L.725 8.7a.5.5 0 0 0 0 .6l.975 1.3a1 1 0 0 0 .8.4H7v5h2v-5h5a1 1 0 0 0 1-1V8a1 1 0 0 0-1-1H9V6h4.5a1 1 0 0 0 .8-.4l.975-1.3a.5.5 0 0 0 0-.6L14.3 2.4a1 1 0 0 0-.8-.4H9v-.586a1 1 0 0 0-2 0zM13.5 3l.75 1-.75 1H2V3h11.5zm.5 5v2H2.5l-.75-1 .75-1H14z"/>
+                            </svg>
+                            Szolgáltatásaim
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="sved.html">Svédmasszázs</a></li>
+                            <li><a class="dropdown-item active" href="kopoly.html" style="background-color: #00593f;">Köpöly</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li>
+                                <a class="dropdown-item" href="idopont.html">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-alarm" viewBox="0 0 16 16">
+                                        <path d="M8.5 5.5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9V5.5z"/>
+                                        <path d="M6.5 0a.5.5 0 0 0 0 1H7v1.07a7.001 7.001 0 0 0-3.273 12.474l-.602.602a.5.5 0 0 0 .707.708l.746-.746A6.97 6.97 0 0 0 8 16a6.97 6.97 0 0 0 3.422-.892l.746.746a.5.5 0 0 0 .707-.708l-.601-.602A7.001 7.001 0 0 0 9 2.07V1h.5a.5.5 0 0 0 0-1h-3zm1.038 3.018a6.093 6.093 0 0 1 .924 0 6 6 0 1 1-.924 0zM0 3.5c0 .753.333 1.429.86 1.887A8.035 8.035 0 0 1 4.387 1.86 2.5 2.5 0 0 0 0 3.5zM13.5 1c-.753 0-1.429.333-1.887.86a8.035 8.035 0 0 1 3.527 3.527A2.5 2.5 0 0 0 13.5 1z"/>
+                                    </svg>
+                                    Időpont egyeztetés
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" tabindex="-1" aria-disabled="true">Júlia Szépségszalon</a>
+                    </li>
+                </ul>
+                <a id="gyengenlato-mod" onclick="setActiveStyleSheet('gyengenlato');removeStyle();">
+                    <img class="img-fluid" src="Media/accessible.png" alt="Gyengénlátó mód" />
+                </a>
+                <button id="gyengenlato-kikapcs" type="button" onclick="restoreStyle()" class="btn btn-warning btn-lg text-nowrap align-middle">Gyengénlátó mód kikapcsolása</button>
+                <span class="navbar-text">Mert a masszázs nem luxuscikk!</span>
+            </div>
+        </div>
+    </nav>
+    <header class="page-header header container-fluid">
+        <div class="overlay">
+            <div class="description">
+                <h1>Köpöly</h1>
+                <p>A gyógyító köpölykezelés egy vákuumos masszázs, amely a hagyományos kínai gyógyászat egyik terápiás eszközére, a köpöly-technikára épül. A fizikai gyógykezelések egyik fajtája, mechanikai ingerlés a test legérzékenyebb (akupunktúra) pontjai felett. Lokális hatású pozitív ingerhatásról beszélünk. Vérkeringésre, és a vérösszetételre gyakorolt hatása is igen jótékony.</p>
+            </div>
+        </div>
+    </header>
+    <main id="tartalom">
+        <!--Felirat-->
+        <div class="row">
+            <h1>Magyar nyelvű felirat</h1>
+            <p  style="font-size: 1.4em; text-align: justify;">
+                Üdvözöllek Benneteket! Nagy Judit vagyok az FSO központból. Természetgyógyász, kineziológus, masszőr.<br />
+                Meg szeretném mutatni Nektek a mai napon a köpölyözést.<br />
+                <strong>(Első köpöly felhelyezése vákuumpisztollyal)</strong><br />
+                A köpölyözés több ezer évre tekint vissza. Ezt az alternatív gyógyászatot alkalmazták már az ősmagyarok, a kínaiak, az egyiptomiak és még nagyon sokan az ókorban.<br />
+                <strong>(Többi köpöly felhelyezése vákuumpisztollyal a gerinc mentén)</strong><br />
+                A köpölyözés célja a méregtelenítés, izomlazítás, vérkeringés serkentése.
+                Mivel hogy a keleti gyógyászat szerint energiapályákon haladunk, ezáltal az akupunktúrás pontokat érintjük, és belső szerveinkre is hatást tudunk gyakorolni, tehát gyógyító hatással hat.<br />
+                Alkalmazzuk derékfájdalmakra, húzódásra, izomlazításra, ízületek fájdalmára, vállat kezelünk vele.
+                A kínai gyógyászat szerint mivel az akupunktúrás pontokon keresztül a súlypontokat érintve belső szervekre hatással van, nagyon nagyon szerteágazó a köpölyözés jótékony hatása.<br />
+                <strong>(Ráközelítés a vendég hátára)</strong><br />
+                Magyarországon is egyre többen nyitottak a természetgyógyászat, alternatív gyógyászat felé. Gyógyszermentesen kapnak segítséget fájdalmaikra, húzódásaikra, izomfájdalmakra.<br />
+                A köpölynek is több formája létezik. Létezik ez a műanyag köpöly, amit hidegköpölynek is hívnak, hiszen nem használok hőforrást, hanem a vákuumpisztollyal vákuumot képzek a harangocskában. Ez a harangocska, ami a vákuumot képzi a bőr felszínét láthatóan felhúzza, ezáltal vérhiányt érzékel a szervezetünk, serkenti a vér keringését, hogy ide szívja.
+                Amikor levesszük a kedves vendég hátáról a köpölyöket, nyoma maradhat. Minél lilább, minél sötétebb, az jelzi a fájdalmának súlyosságát, hogy hol vannak komolyabb problémák a szervezetében, elakadások és salakanyag.<br />
+                <strong>(Köpöly levétele)</strong><br />
+                A köpöly alapvetően egy fájdalommentes dolog, fájdalommentes terápia igazából. Amikor a vákuumot képezzük, kicsit feszülést érez a testünk az összehúzódás miatt. Ez a feszültség, ami ekkor keletkezett, ez szépen pár perc alatt el fog lazulni. A páciens hátán 5-10-15 percig fennhagyjuk a köpölyt, és utána láthatóak ezek a korongocska formák. Mint említettem, ott ahol sötétebb, ott Ő neki például ott vannak fájdalmas pontjai.<br />
+                A köpölyt a szépségipar is alkalmazza a narancsbőr eltávolítására, a celluid feltörésére alkalmazzák. Ehhez nempediglen az üvegköpölyt használjuk.<br />
+                Köszönöm szépen a figyelmeteket, remélem, hogy hasznos információkkal szolgálhattam a köpölyről számotokra. Ha bármilyen kérdésetek van, szeretnétek kipróbálni, akkor megtaláltok Bennünket az FSO központ honlapján, www.fsokozpont.hu, és a Facebook oldalunkat is ismeritek.
+            </p>
+        </div>
+    </main>
+    <footer class="page-footer print-hide">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center" id="kapcsolat">
+                    <h1 class="text-uppercase font-weight-bold my-3">Kapcsolat</h1>
+                    <p>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                            <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
+                            <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                        </svg>
+                        5000 Szolnok, Konstantin utca 40.
+                        <br /><a class="email" href="mailto:jarvasgy@gmail.com">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                                    <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"/>
+                                </svg>
+                                jarvasgy@gmail.com
+                            </a>
+                        <br /><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+                                <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                            </svg>
+                            +36-20/513-31-53
+                        <br /><a href="https://www.facebook.com/masszasszolnok" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                                    <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                                </svg>
+                            </a>
+                        <br /><small class="text-muted">Last update: 2021.09.22.</small>
+                    </p>
+                </div>
+            </div>
+            <div class="footer-copyright text-center">© 2021 Copyright: JarvasMassage.com</div>
+        </div>
+    </footer>
+    <script src="Scripts/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="Scripts/gyengenlato.js"></script>
+    <script src="Scripts/stilus.js"></script>
+</body>
+</html>
